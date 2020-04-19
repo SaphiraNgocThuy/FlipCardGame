@@ -53,7 +53,7 @@ const Card = ({ title, id, isOpened, onCardPress, onFlipOpened }) => {
     if (!isOpened) {
       onCardPress(title, id);
     }
-  }, [isOpened]);
+  }, [isOpened, title, id]);
 
   return (
     <TouchableWithoutFeedback {...{ onPress }}>
