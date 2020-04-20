@@ -1,5 +1,6 @@
-import { FLIP_ALL, PRESS_CARD, FLIP_OPENED, GET_NUMBERS } from "./constants";
-import { getNumbers } from "../utils/helper";
+import { FLIP_ALL, PRESS_CARD, FLIP_OPENED, GET_NUMBERS } from './constants';
+import { getNumbers, getBackground } from '../utils/helper';
+import images from '../assets';
 
 export const initialState = {
   steps: 0,
@@ -7,6 +8,7 @@ export const initialState = {
   firstSelected: null,
   secondSelected: null,
   resolved: [],
+  background: images.fruit.strawberry,
 };
 
 const reducer = (state = initialState, action) => {
@@ -48,9 +50,16 @@ const reducer = (state = initialState, action) => {
       return newState;
 
     case FLIP_ALL:
-      return { ...initialState, numbers };
+      return {
+        ...initialState,
+        numbers,
+        background: images.fruit[getBackground()],
+      };
     case GET_NUMBERS:
-      return { ...initialState, numbers: getNumbers() };
+      return {
+        ...state,
+        numbers: getNumbers(),
+      };
 
     default:
       return state;

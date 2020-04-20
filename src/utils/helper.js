@@ -1,5 +1,6 @@
 import { Dimensions } from 'react-native';
 import Constants from 'expo-constants';
+import images from '../assets';
 
 export const { width: screenWidth } = Dimensions.get('window');
 export const getStatusBarHeight = () => Constants.statusBarHeight;
@@ -17,4 +18,8 @@ const shuffleArray = (array) => {
     [array[i], array[j]] = [array[j], array[i]];
   }
   return array;
+};
+
+export const getBackground = () => {
+  return shuffleArray(Object.keys(images.fruit))[0];
 };

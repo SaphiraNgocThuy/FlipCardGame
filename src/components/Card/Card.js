@@ -8,11 +8,17 @@ import {
   NumberText,
   StyledImage,
 } from './CardStyles';
-import images from '../../assets';
 
 const perspective = 500;
 
-const Card = ({ title, id, isOpened, onCardPress, onFlipOpened }) => {
+const Card = ({
+  title,
+  id,
+  isOpened,
+  onCardPress,
+  onFlipOpened,
+  background,
+}) => {
   const animatedValue = useMemo(() => new Animated.Value(0), []);
 
   useEffect(() => {
@@ -80,7 +86,7 @@ const Card = ({ title, id, isOpened, onCardPress, onFlipOpened }) => {
             ],
           }}
         >
-          <StyledImage source={images.fruit.strawberry} />
+          <StyledImage source={background} />
         </BackCard>
       </CardContainer>
     </TouchableWithoutFeedback>
@@ -93,6 +99,7 @@ Card.propTypes = {
   isOpened: PropTypes.bool.isRequired,
   onCardPress: PropTypes.func.isRequired,
   onFlipOpened: PropTypes.func.isRequired,
+  background: PropTypes.number.isRequired,
 };
 
 export default memo(Card);

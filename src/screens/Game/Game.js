@@ -15,6 +15,7 @@ const Game = () => {
     resolved,
     firstSelected,
     secondSelected,
+    background,
   } = useSelector((state) => state);
   const win = useMemo(() => resolved.length === 12, [resolved]);
 
@@ -39,12 +40,12 @@ const Game = () => {
         return (
           <Card
             key={id}
-            {...{ title, id, isOpened, onCardPress, onFlipOpened }}
+            {...{ title, id, isOpened, onCardPress, onFlipOpened, background }}
           />
         );
       }),
     ],
-    [numbers, resolved, firstSelected, secondSelected]
+    [numbers, resolved, firstSelected, secondSelected, background]
   );
 
   const onRestart = useCallback(() => dispatch(restart()), []);

@@ -2,6 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import Card from '../../src/components/Card/Card';
 import { render, fireEvent } from 'react-native-testing-library';
+import images from '../../src/assets';
 
 it('renders when not open', () => {
   const tree = renderer
@@ -12,6 +13,7 @@ it('renders when not open', () => {
         isOpened={false}
         onCardPress={() => {}}
         onFlipOpened={() => {}}
+        background={images.fruit.strawberry}
       />
     )
     .toJSON();
@@ -27,6 +29,7 @@ it('renders if opened', () => {
         isOpened={true}
         onCardPress={() => {}}
         onFlipOpened={() => {}}
+        background={images.fruit.strawberry}
       />
     )
     .toJSON();
@@ -42,6 +45,7 @@ it('onPress when card is not open', () => {
       isOpened={false}
       {...{ onCardPress }}
       onFlipOpened={() => {}}
+      background={images.fruit.strawberry}
     />
   );
   const button = rendered.getByTestId('touchable');
@@ -58,6 +62,7 @@ it('onPress when card is open', () => {
       isOpened
       {...{ onCardPress }}
       onFlipOpened={() => {}}
+      background={images.fruit.strawberry}
     />
   );
   const button = rendered.getByTestId('touchable');
