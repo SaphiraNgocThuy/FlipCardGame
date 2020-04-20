@@ -32,7 +32,11 @@ expo start
 
 ### Flow
 
-<iframe src="https://drive.google.com/file/d/1gCL3hl3xU1cycE1RXySQnzcx7Yexkyrf/preview" width="640" height="480"></iframe>
+[![testFlow](./demo/iPhone11ProMax.png)](https://www.youtube.com/watch?v=3U51u6eraCA&feature=youtu.be)
+
+<video width="320" height="240" controls>
+  <source src="https://www.youtube.com/watch?v=3U51u6eraCA&feature=youtu.be" type="video/mov">
+</video>
 
 ### Test Coverage
 
