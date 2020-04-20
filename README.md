@@ -36,7 +36,7 @@ expo start
 
 ### Test Coverage
 
-<img src="./demo/testCoverage.png" alt="testCoverage" width="100%"/> |
+<img src="./demo/testCoverage.png" alt="testCoverage" width="100%"/>
 
 ## 3. Built With
 
