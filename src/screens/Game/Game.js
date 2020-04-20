@@ -1,11 +1,11 @@
-import React, { memo, useMemo, useCallback } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { restart, pressCard, flipOpened } from "../../store/actions";
-import { GameView, RowView, CardsView } from "./GameStyles";
-import CurvedButton from "../../components/Button/CurvedButton";
-import CurvedBadge from "../../components/Badge/Badge";
-import Card from "../../components/Card/Card";
-import CongratsModal from "../../components/Modal/CongratsModal";
+import React, { memo, useMemo, useCallback } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { restart, pressCard, flipOpened } from '../../store/actions';
+import { GameView, RowView, CardsView } from './GameStyles';
+import CurvedButton from '../../components/Button/CurvedButton';
+import CurvedBadge from '../../components/Badge/Badge';
+import Card from '../../components/Card/Card';
+import CongratsModal from '../../components/Modal/CongratsModal';
 
 const Game = () => {
   const dispatch = useDispatch();

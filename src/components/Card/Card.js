@@ -1,14 +1,14 @@
-import React, { useCallback, useMemo, memo, useEffect } from "react";
-import { Animated, TouchableWithoutFeedback } from "react-native";
-import PropTypes from "prop-types";
+import React, { useCallback, useMemo, memo, useEffect } from 'react';
+import { Animated, TouchableWithoutFeedback } from 'react-native';
+import PropTypes from 'prop-types';
 import {
   CardContainer,
   BackCard,
   FrontCard,
   NumberText,
   StyledImage,
-} from "./CardStyles";
-import images from "../../assets";
+} from './CardStyles';
+import images from '../../assets';
 
 const perspective = 500;
 
@@ -36,7 +36,7 @@ const Card = ({ title, id, isOpened, onCardPress, onFlipOpened }) => {
     () =>
       animatedValue.interpolate({
         inputRange: [0, 180],
-        outputRange: ["180deg", "360deg"],
+        outputRange: ['180deg', '360deg'],
       }),
     []
   );
@@ -44,7 +44,7 @@ const Card = ({ title, id, isOpened, onCardPress, onFlipOpened }) => {
     () =>
       animatedValue.interpolate({
         inputRange: [0, 180],
-        outputRange: ["0deg", "180deg"],
+        outputRange: ['0deg', '180deg'],
       }),
     []
   );
@@ -56,7 +56,7 @@ const Card = ({ title, id, isOpened, onCardPress, onFlipOpened }) => {
   }, [isOpened, title, id]);
 
   return (
-    <TouchableWithoutFeedback {...{ onPress }}>
+    <TouchableWithoutFeedback {...{ onPress }} testID="touchable">
       <CardContainer>
         <FrontCard
           style={{

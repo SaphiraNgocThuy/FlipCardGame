@@ -1,8 +1,6 @@
-import styled from "styled-components/native";
-import { theme } from "../../utils/theme";
-import { getStatusBarHeight } from "../../utils/helper";
-import { padding } from "../../utils/commonStyles";
-import { FlatList } from "react-native";
+import styled from 'styled-components/native';
+import { getStatusBarHeight } from '../../utils/helper';
+import { padding } from '../../utils/commonStyles';
 
 export const GameView = styled.View`
   padding-top: ${getStatusBarHeight()}px;
