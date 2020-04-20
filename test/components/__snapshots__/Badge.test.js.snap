@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderColor": "#424c58",
+        "borderRadius": 30,
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "justifyContent": "center",
+        "marginRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 24,
+        "paddingRight": 24,
+        "paddingTop": 16,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#424c58",
+          "fontSize": 20,
+          "fontWeight": "bold",
+        },
+      ]
+    }
+  >
+    STEPS: 
+    4
+  </Text>
+</View>
+`;
