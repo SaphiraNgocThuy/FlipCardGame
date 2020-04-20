@@ -32,7 +32,7 @@ expo start
 
 ### Flow
 
-[![testFlow](./demo/testFlow.png)](https://www.youtube.com/watch?v=3U51u6eraCA&feature=youtu.be)
+[![testFlow](./demo/testFlow.gif)](https://www.youtube.com/watch?v=3U51u6eraCA&feature=youtu.be)
 
 ### Test Coverage
 
