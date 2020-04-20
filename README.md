@@ -32,7 +32,11 @@ expo start
 
 ### Flow
 
-![testFlow](./demo/testFlow.mov)
+<iframe src="https://drive.google.com/file/d/1gCL3hl3xU1cycE1RXySQnzcx7Yexkyrf/preview" width="640" height="480"></iframe>
+
+### Test Coverage
+
+<img src="./demo/testCoverage.png" alt="testCoverage" width="100%"/> |
 
 ## 3. Built With
 
