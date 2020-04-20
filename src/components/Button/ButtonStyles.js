@@ -1,6 +1,6 @@
-import styled from "styled-components/native";
-import { padding, fontSize, borderRadius } from "../../utils/commonStyles";
-import { theme } from "../../utils/theme";
+import styled from 'styled-components/native';
+import { padding, fontSize, borderRadius } from '../../utils/commonStyles';
+import { theme } from '../../utils/theme';
 
 export const ButtonContainer = styled.TouchableOpacity`
   padding: ${padding.md}px;

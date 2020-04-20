@@ -8,6 +8,7 @@ export const GameView = styled.View`
 `;
 
 export const RowView = styled.View`
+  padding-top: ${padding.sm}px;
   flex-direction: row;
   justify-content: space-between;
 `;

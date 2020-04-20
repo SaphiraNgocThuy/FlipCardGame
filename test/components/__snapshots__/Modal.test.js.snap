@@ -41,10 +41,10 @@ exports[`renders correctly 1`] = `
             "backgroundColor": "#ffffff",
             "borderRadius": 30,
             "elevation": 10,
-            "paddingBottom": 24,
-            "paddingLeft": 24,
-            "paddingRight": 24,
-            "paddingTop": 24,
+            "paddingBottom": 48,
+            "paddingLeft": 48,
+            "paddingRight": 48,
+            "paddingTop": 48,
           },
         ]
       }
@@ -66,8 +66,8 @@ exports[`renders correctly 1`] = `
           Array [
             Object {
               "color": "#424c58",
-              "fontSize": 20,
-              "paddingTop": 16,
+              "fontSize": 40,
+              "paddingTop": 32,
             },
           ]
         }
@@ -79,9 +79,9 @@ exports[`renders correctly 1`] = `
           Array [
             Object {
               "color": "#424c58",
-              "fontSize": 16,
-              "paddingBottom": 16,
-              "paddingTop": 16,
+              "fontSize": 30,
+              "paddingBottom": 32,
+              "paddingTop": 32,
             },
           ]
         }
@@ -104,13 +104,13 @@ exports[`renders correctly 1`] = `
         style={
           Object {
             "backgroundColor": "#2ac5db",
-            "borderRadius": 30,
+            "borderRadius": 60,
             "justifyContent": "center",
             "opacity": 1,
-            "paddingBottom": 16,
-            "paddingLeft": 16,
-            "paddingRight": 16,
-            "paddingTop": 16,
+            "paddingBottom": 32,
+            "paddingLeft": 32,
+            "paddingRight": 32,
+            "paddingTop": 32,
           }
         }
       >
@@ -119,7 +119,7 @@ exports[`renders correctly 1`] = `
             Array [
               Object {
                 "color": "#ffffff",
-                "fontSize": 20,
+                "fontSize": 40,
                 "fontWeight": "bold",
               },
             ]

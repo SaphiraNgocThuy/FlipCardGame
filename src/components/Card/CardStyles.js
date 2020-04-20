@@ -1,7 +1,7 @@
-import styled from "styled-components/native";
-import { theme } from "../../utils/theme";
-import { padding, fontSize, borderRadius } from "../../utils/commonStyles";
-import { Animated } from "react-native";
+import styled from 'styled-components/native';
+import { theme } from '../../utils/theme';
+import { padding, fontSize, borderRadius } from '../../utils/commonStyles';
+import { Animated } from 'react-native';
 
 export const CardContainer = styled.View`
   flex-grow: 1;
@@ -33,8 +33,8 @@ export const NumberText = styled.Text`
 `;
 
 export const StyledImage = styled.Image.attrs({
-  resizeMode: "contain",
+  resizeMode: 'contain',
 })`
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
 `;

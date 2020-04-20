@@ -1,5 +1,7 @@
-import Constants from "expo-constants";
+import { Dimensions } from 'react-native';
+import Constants from 'expo-constants';
 
+export const { width: screenWidth } = Dimensions.get('window');
 export const getStatusBarHeight = () => Constants.statusBarHeight;
 
 export const getNumbers = () => {

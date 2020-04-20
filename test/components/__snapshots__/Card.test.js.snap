@@ -16,10 +16,10 @@ exports[`renders if opened 1`] = `
       Object {
         "flexBasis": "25%",
         "flexGrow": 1,
-        "marginBottom": 8,
-        "marginLeft": 8,
-        "marginRight": 8,
-        "marginTop": 8,
+        "marginBottom": 16,
+        "marginLeft": 16,
+        "marginRight": 16,
+        "marginTop": 16,
       },
     ]
   }
@@ -31,7 +31,7 @@ exports[`renders if opened 1`] = `
         "alignItems": "center",
         "backfaceVisibility": "hidden",
         "backgroundColor": "#33c4b3",
-        "borderRadius": 30,
+        "borderRadius": 60,
         "height": "100%",
         "justifyContent": "center",
         "position": "absolute",
@@ -52,7 +52,7 @@ exports[`renders if opened 1`] = `
         Array [
           Object {
             "color": "#ffffff",
-            "fontSize": 30,
+            "fontSize": 60,
           },
         ]
       }
@@ -66,7 +66,7 @@ exports[`renders if opened 1`] = `
         "alignItems": "center",
         "backfaceVisibility": "hidden",
         "backgroundColor": "#424c58",
-        "borderRadius": 30,
+        "borderRadius": 60,
         "height": "100%",
         "justifyContent": "center",
         "position": "absolute",
@@ -88,8 +88,8 @@ exports[`renders if opened 1`] = `
       style={
         Array [
           Object {
-            "height": "100%",
-            "width": "100%",
+            "height": "80%",
+            "width": "80%",
           },
         ]
       }
@@ -114,10 +114,10 @@ exports[`renders when not open 1`] = `
       Object {
         "flexBasis": "25%",
         "flexGrow": 1,
-        "marginBottom": 8,
-        "marginLeft": 8,
-        "marginRight": 8,
-        "marginTop": 8,
+        "marginBottom": 16,
+        "marginLeft": 16,
+        "marginRight": 16,
+        "marginTop": 16,
       },
     ]
   }
@@ -129,7 +129,7 @@ exports[`renders when not open 1`] = `
         "alignItems": "center",
         "backfaceVisibility": "hidden",
         "backgroundColor": "#33c4b3",
-        "borderRadius": 30,
+        "borderRadius": 60,
         "height": "100%",
         "justifyContent": "center",
         "position": "absolute",
@@ -150,7 +150,7 @@ exports[`renders when not open 1`] = `
         Array [
           Object {
             "color": "#ffffff",
-            "fontSize": 30,
+            "fontSize": 60,
           },
         ]
       }
@@ -164,7 +164,7 @@ exports[`renders when not open 1`] = `
         "alignItems": "center",
         "backfaceVisibility": "hidden",
         "backgroundColor": "#424c58",
-        "borderRadius": 30,
+        "borderRadius": 60,
         "height": "100%",
         "justifyContent": "center",
         "position": "absolute",
@@ -186,8 +186,8 @@ exports[`renders when not open 1`] = `
       style={
         Array [
           Object {
-            "height": "100%",
-            "width": "100%",
+            "height": "80%",
+            "width": "80%",
           },
         ]
       }

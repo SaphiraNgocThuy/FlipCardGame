@@ -15,14 +15,14 @@ exports[`render left side button 1`] = `
   style={
     Object {
       "backgroundColor": "#2ac5db",
-      "borderBottomRightRadius": 30,
-      "borderTopRightRadius": 30,
+      "borderBottomRightRadius": 60,
+      "borderTopRightRadius": 60,
       "justifyContent": "center",
       "opacity": 1,
-      "paddingBottom": 16,
-      "paddingLeft": 16,
-      "paddingRight": 24,
-      "paddingTop": 16,
+      "paddingBottom": 32,
+      "paddingLeft": 32,
+      "paddingRight": 48,
+      "paddingTop": 32,
     }
   }
 >
@@ -31,7 +31,7 @@ exports[`render left side button 1`] = `
       Array [
         Object {
           "color": "#ffffff",
-          "fontSize": 20,
+          "fontSize": 40,
           "fontWeight": "bold",
         },
       ]
@@ -57,13 +57,13 @@ exports[`render normal button 1`] = `
   style={
     Object {
       "backgroundColor": "#2ac5db",
-      "borderRadius": 30,
+      "borderRadius": 60,
       "justifyContent": "center",
       "opacity": 1,
-      "paddingBottom": 16,
-      "paddingLeft": 16,
-      "paddingRight": 16,
-      "paddingTop": 16,
+      "paddingBottom": 32,
+      "paddingLeft": 32,
+      "paddingRight": 32,
+      "paddingTop": 32,
     }
   }
 >
@@ -72,7 +72,7 @@ exports[`render normal button 1`] = `
       Array [
         Object {
           "color": "#ffffff",
-          "fontSize": 20,
+          "fontSize": 40,
           "fontWeight": "bold",
         },
       ]
